@@ -31,8 +31,8 @@ CREATE TABLE Profile (
 INSERT INTO users (name,email,password)
     VALUES ('UMSI','umsi@umich.edu','1a52e17fa899cf40fb04cfc42e6352f1');
 
-GRANT ALL ON js.* TO 'alan'@'localhost' IDENTIFIED BY 'alan';
-GRANT ALL ON js.* TO 'alan'@'127.0.0.1' IDENTIFIED BY 'alan';
+GRANT ALL ON resume_db.* TO 'user'@'localhost' IDENTIFIED BY 'user';
+GRANT ALL ON resume_db.* TO 'user'@'127.0.0.1' IDENTIFIED BY 'user';
 
 umsi@umich.edu
 php123
